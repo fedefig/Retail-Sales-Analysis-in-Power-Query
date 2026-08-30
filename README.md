@@ -73,6 +73,9 @@ This transformation ensures that only valid, positive, customer‑linked transac
 📊 Sales Performance Dashboard:
 A clear year‑over‑year comparison of sales metrics between 2010 and 2011, highlighting trends in revenue, customer engagement, and product performance.
 
+![image alt](https://github.com/fedefig/Retail-Sales-Analysis-in-Power-Query/blob/main/Sales%20dashboard.png?raw=true)
+
+
 🔍 Main Observations:
 
 Stable KPIs: Both years show identical headline metrics — €8.7M in sales, 4,231 customers, and 18,325 invoices — indicating consistent business volume.
