@@ -42,6 +42,7 @@ Consolidation and cleaning of transactional data from two yearly tables (Year 20
 •	Final filter: Excludes 2009 data to focus on the 2010–2011 comparison, as 2009 data is incomplete
 
 💡 Insight
+
 This transformation ensures that only valid, positive, customer linked transactions feed into the Excel dashboard, preventing distortions in KPIs such as total sales, average order value, and customer counts.
 
 📊 Sales Performance Dashboard — Key Insights
