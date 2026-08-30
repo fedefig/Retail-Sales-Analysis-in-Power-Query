@@ -7,6 +7,7 @@ Dataset Information
 Additional Information
 This Online Retail II data set contains all the transactions occurring for a UK-based and registered, non-store online retail for 2010 and 2011.The company mainly sells unique all-occasion giftware, many customers of the company are wholesalers.
 Source: https://archive.ics.uci.edu/dataset/502/online+retail+ii
+
 1. Dataset Overview (Online Retail II)
 The dataset contains:
 •	Transactions (InvoiceNo, StockCode, Description, Quantity, UnitPrice)
@@ -17,16 +18,19 @@ Pain points:
 •	It’s messy (missing IDs, negative quantities, duplicates)
 •	It’s large (500k+ rows)
 
-Objectives:
+2. Objectives:
 -	Power Query cleaning script
 -	Power Pivot data model 
 -	DAX measures
 -	Excel dashboard with relevant KPIs
+-	
+
 ⚙️ Power Query Data Preparation (M Code)
 Consolidation and cleaning of transactional data from two yearly tables (Year 2009 2010 and Year 2010 2011) to ensure accurate KPI calculations in the dashboard.
+
 🧩 Key Steps
 •	Combine datasets: Merges both yearly tables into one unified source.
-•	Filter integrity: Removes:
+•	Filter integrity, it removes:
 o	Null invoices
 o	Cancellations (invoices starting with “C”)
 o	Negative or zero quantities and prices
@@ -36,11 +40,13 @@ o	Missing customer IDs
 •	Date enrichment: Extracts the Year from Invoice Date for time based analysis.
 •	Currency formatting: Converts the Sales column to currency type for accurate aggregation.
 •	Final filter: Excludes 2009 data to focus on the 2010–2011 comparison, as 2009 data is incomplete
+
 💡 Insight
 This transformation ensures that only valid, positive, customer linked transactions feed into the Excel dashboard, preventing distortions in KPIs such as total sales, average order value, and customer counts.
 
 📊 Sales Performance Dashboard — Key Insights
 This dashboard provides a clear year over year comparison of sales metrics between 2010 and 2011, highlighting trends in revenue, customer engagement, and product performance.
+
 🔍 Main Observations
 •	Stable KPIs: Both years show identical headline metrics — €8.7M in sales, 4,231 customers, and 18,325 invoices — suggesting consistent business volume.
 •	Slight Decline: A  4.4% year over year drop in total sales indicates minor contraction despite steady customer counts.
@@ -50,6 +56,7 @@ This dashboard provides a clear year over year comparison of sales metrics betwe
 o	2010 top sellers: classic items like T shirts, mugs, and stationery.
 o	2011 top sellers: more premium or diversified products such as handbags, caps, and leather goods, reflecting a shift toward higher value merchandise.
 •	Data Filters: Interactive slicers for year, month, quarter, and semester enable granular exploration of trends.
+
 💡 Interpretation
 Overall, the dashboard demonstrates a mature, steady sales structure with evolving product strategy and seasonal performance patterns.
 
