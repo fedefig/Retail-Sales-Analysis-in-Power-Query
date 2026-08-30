@@ -67,13 +67,13 @@ Currency formatting: Convert Sales to currency type.
 
 Final filter: Exclude 2009 because the data is incomplete.
 
-💡 Insight
+💡 Insight:
 This transformation ensures that only valid, positive, customer‑linked transactions feed into the Excel dashboard, preventing distortions in KPIs such as total sales, average order value, and customer counts.
 
-📊 Sales Performance Dashboard
+📊 Sales Performance Dashboard:
 A clear year‑over‑year comparison of sales metrics between 2010 and 2011, highlighting trends in revenue, customer engagement, and product performance.
 
-🔍 Main Observations
+🔍 Main Observations:
 Stable KPIs: Both years show identical headline metrics — €8.7M in sales, 4,231 customers, and 18,325 invoices — indicating consistent business volume.
 
 Slight Decline: A 4.4% YoY drop in total sales suggests minor contraction despite stable customer counts.
@@ -90,7 +90,7 @@ Product Mix Evolution:
 
 Data Filters: Interactive slicers for year, month, quarter, and semester enable granular exploration.
 
-💡 Interpretation
+💡 Interpretation:
 The dashboard demonstrates a mature, steady sales structure with evolving product strategy and clear seasonal patterns.
 It highlights how data cleaning, modeling, and visualization can produce actionable business insights.
 
