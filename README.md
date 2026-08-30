@@ -45,7 +45,8 @@ Consolidation and cleaning of transactional data from two yearly tables (Year 20
 
 This transformation ensures that only valid, positive, customer linked transactions feed into the Excel dashboard, preventing distortions in KPIs such as total sales, average order value, and customer counts.
 
-📊 Sales Performance Dashboard — Key Insights
+📊 Sales Performance Dashboard 
+Key Insights
 This dashboard provides a clear year over year comparison of sales metrics between 2010 and 2011, highlighting trends in revenue, customer engagement, and product performance.
 
 🔍 Main Observations
