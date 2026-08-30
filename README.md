@@ -45,7 +45,7 @@ Consolidation and cleaning of transactional data from two yearly tables (2009–
 🧩 Key Steps
 Combine datasets: Merge both yearly tables into one unified source.
 
-Filter integrity: Remove
+Filter integrity to remove:
 
 Null invoices
 
