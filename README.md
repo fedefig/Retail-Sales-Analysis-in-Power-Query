@@ -103,7 +103,7 @@ This is the core measure of your model.
 DAX
 Total Sales :=
 SUM ( FactSales[Sales] )
-Why it matters
+Why it matters:
 Every other KPI (YoY, MoM, Top Products, Country Analysis) depends on this measure.
 ⭐ 2. Total Quantity
 Useful for operational insights.
