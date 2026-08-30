@@ -23,7 +23,7 @@ Pain points:
 -	Power Pivot data model 
 -	DAX measures
 -	Excel dashboard with relevant KPIs
--	
+  
 
 ⚙️ Power Query Data Preparation (M Code)
 Consolidation and cleaning of transactional data from two yearly tables (Year 2009 2010 and Year 2010 2011) to ensure accurate KPI calculations in the dashboard.
@@ -31,10 +31,10 @@ Consolidation and cleaning of transactional data from two yearly tables (Year 20
 🧩 Key Steps
 •	Combine datasets: Merges both yearly tables into one unified source.
 •	Filter integrity, it removes:
-o	Null invoices
-o	Cancellations (invoices starting with “C”)
-o	Negative or zero quantities and prices
-o	Missing customer IDs
+    o	Null invoices
+    o	Cancellations (invoices starting with “C”)
+    o	Negative or zero quantities and prices
+    o	Missing customer IDs
 •	Text normalization: Trims spaces in text fields (Description, Country, StockCode) for consistent joins and grouping.
 •	Sales calculation: Adds a computed column Sales = Quantity × Price.
 •	Date enrichment: Extracts the Year from Invoice Date for time based analysis.
@@ -53,8 +53,8 @@ This dashboard provides a clear year over year comparison of sales metrics betwe
 •	Seasonality: Monthly charts reveal strong peaks in Q4, typical of end of year demand cycles.
 •	Customer Growth: The customer base fluctuates but shows resilience, with notable spikes in months 10–12.
 •	Product Mix Evolution:
-o	2010 top sellers: classic items like T shirts, mugs, and stationery.
-o	2011 top sellers: more premium or diversified products such as handbags, caps, and leather goods, reflecting a shift toward higher value merchandise.
+    o	   2010 top sellers: classic items like T shirts, mugs, and stationery.
+    o	2011 top sellers: more premium or diversified products such as handbags, caps, and leather goods, reflecting a shift toward higher value merchandise.
 •	Data Filters: Interactive slicers for year, month, quarter, and semester enable granular exploration of trends.
 
 💡 Interpretation
