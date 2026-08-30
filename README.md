@@ -20,7 +20,8 @@ Dates: InvoiceDate
 
 Returns/Cancellations: Invoices starting with “C”
 
-⚠️ Pain Points
+⚠️ Pain Points:
+
 Missing customer IDs
 
 Negative quantities and prices
