@@ -74,6 +74,7 @@ This transformation ensures that only valid, positive, customer‑linked transac
 A clear year‑over‑year comparison of sales metrics between 2010 and 2011, highlighting trends in revenue, customer engagement, and product performance.
 
 🔍 Main Observations:
+
 Stable KPIs: Both years show identical headline metrics — €8.7M in sales, 4,231 customers, and 18,325 invoices — indicating consistent business volume.
 
 Slight Decline: A 4.4% YoY drop in total sales suggests minor contraction despite stable customer counts.
