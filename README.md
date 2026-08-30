@@ -14,6 +14,7 @@ The company sells unique all‑occasion giftware, with many customers being whol
 Source: https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 📁 Dataset Overview
+
 The dataset includes:
 
 Transactions: InvoiceNo, StockCode, Description, Quantity, UnitPrice
