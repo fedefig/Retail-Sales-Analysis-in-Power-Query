@@ -95,6 +95,9 @@ Data Filters: Interactive slicers for year, month, quarter, and semester enable 
 The dashboard demonstrates a mature, steady sales structure with evolving product strategy and clear seasonal patterns.
 It highlights how data cleaning, modeling, and visualization can produce actionable business insights.
 
+
+
+
 Appendix:
 DAX MEASURES
 
