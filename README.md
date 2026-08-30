@@ -50,15 +50,15 @@ Combine datasets: Merge both yearly tables into one unified source.
 
 Filter integrity to remove:
 
-Null invoices
+-Null invoices
 
-Cancellations (invoices starting with “C”)
+-Cancellations (invoices starting with “C”)
 
-Negative or zero quantities
+-Negative or zero quantities
 
-Negative or zero prices
+-Negative or zero prices
 
-Missing customer IDs
+-Missing customer IDs
 
 Text normalization: Trim spaces in Description, Country, StockCode.
 
