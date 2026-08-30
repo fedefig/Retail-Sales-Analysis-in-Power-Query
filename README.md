@@ -30,11 +30,13 @@ Consolidation and cleaning of transactional data from two yearly tables (Year 20
 
 🧩 Key Steps
 •	Combine datasets: Merges both yearly tables into one unified source.
+
 •	Filter integrity, it removes:
     o	Null invoices
     o	Cancellations (invoices starting with “C”)
     o	Negative or zero quantities and prices
     o	Missing customer IDs
+    
 •	Text normalization: Trims spaces in text fields (Description, Country, StockCode) for consistent joins and grouping.
 •	Sales calculation: Adds a computed column Sales = Quantity × Price.
 •	Date enrichment: Extracts the Year from Invoice Date for time based analysis.
@@ -46,6 +48,7 @@ Consolidation and cleaning of transactional data from two yearly tables (Year 20
 This transformation ensures that only valid, positive, customer linked transactions feed into the Excel dashboard, preventing distortions in KPIs such as total sales, average order value, and customer counts.
 
 📊 Sales Performance Dashboard 
+
 Key Insights
 This dashboard provides a clear year over year comparison of sales metrics between 2010 and 2011, highlighting trends in revenue, customer engagement, and product performance.
 
