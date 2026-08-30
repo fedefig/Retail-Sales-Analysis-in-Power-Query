@@ -3,8 +3,8 @@ Customer Purchasing Behavior Analysis Using Online Retail II
 
 Consolidation and cleaning of transactional data from two yearly tables (2010 and 2011) to ensure accurate KPI calculations in the dashboard.
 
-📁 Dataset Download  
-The full Excel dataset and the Query dashboard are available here: [Download Dataset](https://onedrive.live.com/my?id=%2Fpersonal%2Feccebf325c1cb048%2FDocuments%2FPublic%20Datasets&viewid=8a8bd070%2D4fe1%2D4910%2D9131%2Dcaf68ce34fdf)
+📁 Dataset and Dashboard Download  
+The full Excel dataset and the Query dashboard are available here: [Download Dataset](https://www.kaggle.com/datasets/fedefigueiras/retail-sales-analysis-project)
 
 
 📦 Dataset Information
