@@ -39,7 +39,7 @@ Develop DAX measures
 
 Design an Excel dashboard with relevant KPIs
 
-⚙️ Power Query Data Preparation (M Code)
+⚙️ Power Query Data Preparation (M Code):
 Consolidation and cleaning of transactional data from two yearly tables (2009–2010 and 2010–2011) to ensure accurate KPI calculations in the dashboard.
 
 🧩 Key Steps
